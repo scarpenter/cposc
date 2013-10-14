@@ -1,0 +1,17 @@
+$highlightColor: #0d4770;
+$notQuiteWhite: darken(#fff, 12%);
+
+body {
+    background-color: $notQuiteWhite;
+}
+
+.row {
+    width: 960px;
+    margin: 2px auto 2px auto;
+}
+
+.header {
+    background-color: $highlightColor;
+    padding: 20px;
+    color: $notQuiteWhite;
+}
