@@ -24,7 +24,7 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem 'capistrano', require: false
+  gem 'capistrano', "< 3", require: false
 end
 
 group :production do
