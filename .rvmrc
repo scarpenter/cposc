@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ruby_string="ruby-2.0.0-p195"
+gemset_name="cposc"
+
+rvm use "${ruby_string}@${gemset_name}"
