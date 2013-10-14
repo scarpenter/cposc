@@ -1,4 +1,7 @@
 Cposc::Application.routes.draw do
+  get "home" => "home#index", as: "home"
+
+  root to: "home#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
