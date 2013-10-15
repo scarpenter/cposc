@@ -23,7 +23,7 @@ production:
   host: localhost
   port: 5432
   username: cposc
-  password: <%= DB_PASSWORD %>
+  password: <%= ENV["DB_PASSWORD"] %>
   database: cposc
   encoding: utf8
   template: template0
