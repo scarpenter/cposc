@@ -5,7 +5,6 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
 
@@ -24,6 +23,7 @@ end
 gem 'jquery-rails'
 
 group :development do
+  gem 'sqlite3'
   gem 'capistrano', "< 3", require: false
 end
 
